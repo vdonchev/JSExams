@@ -21,7 +21,6 @@ function buildStudentProtocol(results) {
     }
 
     let finalResults = {};
-
     function sortStudents(studentA, studentB) {
         if (studentA.result > studentB.result) return -1;
         if (studentA.result < studentB.result) return 1;
